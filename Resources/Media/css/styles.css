@@ -1,3 +1,8 @@
+body{
+    resize:both;
+    overflow:auto;
+    text-align:center;
+}
 header{
     display:inline-flex;
     height:64px;
@@ -26,7 +31,7 @@ span{
     display:inline-flex;
     background-color: lightgray;
     padding:24px;
-    max-width: 1500px;
+    max-width: 1400px;
     min-width: 400px;
     font-family: "Roboto Mono";
 }
@@ -69,4 +74,81 @@ button:hover{
 }
 .Opening div{
     padding:24px 0;
+}
+.second{
+    display:inline-flex;
+    background-color: white;
+    max-width: 1400px;
+    min-width: 400px;
+    font-family: "Roboto Mono";
+    box-sizing:border-box;
+}
+.left{
+    width:60%;
+    overflow:hidden;
+    margin:32px 24px;
+}
+.img2l{
+    width:100%;
+    height:auto;
+    margin:0 0 32px 0;
+}
+.right{
+    width:40%;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:32px 0;
+}
+#info1, #info2, #info3{
+    display:inline-flex;
+    justify-content: center;
+}
+#info1:hover, #info2:hover, #info3:hover{
+    background-color: lightgray;
+
+}
+.text{
+    text-align:left;
+    padding:10px;
+    width:65%;
+}
+.rm{
+    color:blue;
+}
+.rm:hover{
+    color:rgb(14, 171, 223);
+    transition:color 200ms linear;
+}
+.underline{
+    text-align: left;
+}
+.infoimg{
+    padding:16px;
+    width:35%;
+    overflow: auto;
+    height:auto;
+}
+.third{
+    min-width:400px;
+    max-width:1400px;
+    display:inline-flex;
+    padding:32px 72px;
+    box-sizing: content-box;
+    flex-wrap:wrap;
+    font-family: "Roboto Mono";
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.courses{
+    width:33%;
+    text-align: left;
+    background-color: white;
+    margin:0;
+}
+.courseimg{
+    overflow:hidden;
+}
+.untertext{
+    padding:5px;
 }
