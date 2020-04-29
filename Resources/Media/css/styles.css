@@ -3,6 +3,7 @@ body{
     overflow:auto;
     text-align:center;
     max-width: width 1400px;
+    font-size: 18px;
 }
 h1{
     font-family: 'Oswald';
@@ -18,7 +19,7 @@ header{
 }
 #logo p{
     color:black;
-    font-size: 32px;
+    font-size: 1.75rem;
     font-family: 'Oswald';
 }
 span{
@@ -40,11 +41,28 @@ span{
 .first{
     display:inline-flex;
     background-color: lightgray;
-    padding:24px;
+    padding:4/3rem;
     max-width: 1400px;
     min-width: 400px;
     font-family: "Oswald";
 }
+/* Mobile site*/
+/*@media only screen and (max-width:480px){
+    .first{
+        display:inline-flex;
+        flex-direction: column;
+    }
+    .banner{
+        width:100%;
+        height:auto;
+        overflow:hidden;
+    }
+    .Opening{
+        width:100%;
+    }
+    .left{display:none;}*/
+
+
 .banner{
     width:60%;
     height:auto;
@@ -65,7 +83,7 @@ span{
     Font-size:40px;
 }
 .Opening h2{
-    font-size:24px;
+    font-size:4/3rem;
 }
 .button button{
     color:white;
@@ -89,26 +107,25 @@ button:hover{
     display:inline-flex;
     background-color: white;
     max-width: 1400px;
-    min-width: 400px;
     font-family: "Oswald";
     box-sizing:border-box;
 }
 .left{
     width:60%;
     overflow:hidden;
-    margin:32px 24px;
+    margin:1.75rem 1.33rem;
 }
 .img2l{
     width:100%;
     height:auto;
-    margin:18px 0 32px 0;
+    margin:1rem 0 1.75rem 0;
 }
 .right{
     width:40%;
     display:inline-flex;
     flex-direction: column;
     justify-content: start;
-    margin:32px 0;
+    margin:1.75rem 0;
 }
 #info1, #info2, #info3{
     display:inline-flex;
@@ -120,7 +137,7 @@ button:hover{
 }
 .text{
     text-align:left;
-    padding:10px;
+    padding:0.6rem;
     width:65%;
 }
 .rm{
@@ -135,13 +152,12 @@ button:hover{
     font-size: small;
 }
 .infoimg{
-    padding:16px;
+    padding:0.9rem;
     width:35%;
     overflow: auto;
     height:auto;
 }
 .third{
-    min-width:400px;
     max-width:1400px;
     display:inline-flex;
     padding:32px 72px;
@@ -150,14 +166,14 @@ button:hover{
     font-family: "Oswald";
     justify-content: space-between;
     background-color: lightgray;
-    height: 800px;
+    height:auto;
 }
 .courses{
     width:25%;
     text-align: left;
     background-color: white;
     margin:10px;
-    height:45%;
+    height:50%;
 }
 .courseimg{
     overflow:hidden;
@@ -167,6 +183,7 @@ button:hover{
     padding-left:10px;
     padding-bottom:15px;
     padding-top:0;
+    text-align: left;
 }
 .container3{
     display:inline-flex;
@@ -193,8 +210,8 @@ footer{
     padding:10px 25px;
 }
 .infotxt{
-    justify-content: center;
-
+    justify-content: flex-start;
+    text-align:left;
 }
 .txt{
     text-align: left;
