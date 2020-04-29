@@ -2,23 +2,25 @@ body{
     resize:both;
     overflow:auto;
     text-align:center;
+    max-width: width 1400px;
 }
 header{
     display:inline-flex;
     height:64px;
     width:100%;
     padding:16px 24px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
-.LOGO{
+.logo p{
     color:black;
-    font-size: 32px;
+    font-size: 48px;
 }
 span{
     color:gray;
 }
 .logo{
     height:32px;
+    justify-content: center;
 }
 .nav{
     width:100%;
@@ -33,7 +35,7 @@ span{
     padding:24px;
     max-width: 1400px;
     min-width: 400px;
-    font-family: "Roboto Mono";
+    font-family: "Oswald";
 }
 .banner{
     width:60%;
@@ -66,7 +68,7 @@ span{
     width:100%;
     border:none;
     border-radius:5px;
-    font-family: "Roboto Mono";
+    font-family: "Oswald";
 }
 button:hover{
     background-color: rgb(99, 34, 34);
@@ -80,7 +82,7 @@ button:hover{
     background-color: white;
     max-width: 1400px;
     min-width: 400px;
-    font-family: "Roboto Mono";
+    font-family: "Oswald";
     box-sizing:border-box;
 }
 .left{
@@ -136,7 +138,7 @@ button:hover{
     padding:32px 72px;
     box-sizing: content-box;
     flex-wrap:wrap;
-    font-family: "Roboto Mono";
+    font-family: "Oswald";
     justify-content: space-between;
     background-color: lightgray;
 }
@@ -151,4 +153,46 @@ button:hover{
 }
 .untertext{
     padding:5px;
+}
+.container3{
+    display:inline-flex;
+    max-width:1400px;
+    font-family:'Oswald';
+}
+.right{
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+video{
+    width:100%;
+    height:auto;
+}
+#info4, #info5{
+    display:inline-flex;
+    box-sizing: border-box;
+    padding:1em;
+}
+.Überschrift{
+    font-family:'Oswald';
+}
+footer{
+    text-align:left;
+    padding:10px 25px;
+}
+.infotxt{
+    justify-content: center;
+
+}
+.txt{
+    text-align: left;
+    width:65%;
+}
+.lel{
+    width:35%;
+    height:auto;
+    
+}
+#contact{
+    text-align:right;
 }
