@@ -4,27 +4,35 @@ body{
     text-align:center;
     max-width: width 1400px;
 }
+h1{
+    font-family: 'Oswald';
+    font-weight:800;
+}
 header{
     display:inline-flex;
-    height:64px;
     width:100%;
     padding:16px 24px;
     box-sizing: content-box;
+    float:left;
+    height: 64px;
 }
-.logo p{
+#logo p{
     color:black;
-    font-size: 48px;
+    font-size: 32px;
+    font-family: 'Oswald';
 }
 span{
     color:gray;
 }
-.logo{
-    height:32px;
-    justify-content: center;
+#logo{
+    justify-content: flex-start;
+    width:50%;
 }
 .nav{
-    width:100%;
-    text-align:right;
+    width:1400px;
+    display:inline-flex;
+    align-items: flex-end;
+    font-family: 'Oswald';
 }
 .container{
     display:inline-flex;
@@ -54,10 +62,10 @@ span{
     text-align: left;
 }
 .Opening h1{
-    Font-size:50px;
+    Font-size:40px;
 }
 .Opening h2{
-    font-size:28px;
+    font-size:24px;
 }
 .button button{
     color:white;
@@ -93,13 +101,13 @@ button:hover{
 .img2l{
     width:100%;
     height:auto;
-    margin:0 0 32px 0;
+    margin:18px 0 32px 0;
 }
 .right{
     width:40%;
     display:inline-flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     margin:32px 0;
 }
 #info1, #info2, #info3{
@@ -107,8 +115,8 @@ button:hover{
     justify-content: center;
 }
 #info1:hover, #info2:hover, #info3:hover{
-    background-color: lightgray;
-
+    background-color: rgba(211, 211, 211, 0.5);
+    transition:background-color 250ms linear;
 }
 .text{
     text-align:left;
@@ -124,6 +132,7 @@ button:hover{
 }
 .underline{
     text-align: left;
+    font-size: small;
 }
 .infoimg{
     padding:16px;
@@ -136,33 +145,33 @@ button:hover{
     max-width:1400px;
     display:inline-flex;
     padding:32px 72px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     flex-wrap:wrap;
     font-family: "Oswald";
     justify-content: space-between;
     background-color: lightgray;
+    height: 800px;
 }
 .courses{
-    width:33%;
+    width:25%;
     text-align: left;
     background-color: white;
-    margin:0;
+    margin:10px;
+    height:45%;
 }
 .courseimg{
     overflow:hidden;
+    height:50%;
 }
 .untertext{
-    padding:5px;
+    padding-left:10px;
+    padding-bottom:15px;
+    padding-top:0;
 }
 .container3{
     display:inline-flex;
     max-width:1400px;
     font-family:'Oswald';
-}
-.right{
-    display:inline-flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 video{
     width:100%;
@@ -170,8 +179,11 @@ video{
 }
 #info4, #info5{
     display:inline-flex;
-    box-sizing: border-box;
-    padding:1em;
+    justify-content: flex-start;
+}
+#info4:hover, #info5:hover{
+    background-color: rgba(211, 211, 211, 0.5);
+    transition:background-color 250ms linear;
 }
 .Überschrift{
     font-family:'Oswald';
@@ -188,11 +200,22 @@ footer{
     text-align: left;
     width:65%;
 }
-.lel{
+.imgthesis{
+    padding:16px;
+    overflow: auto;
+    height:auto;
     width:35%;
     height:auto;
-    
 }
 #contact{
     text-align:right;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+.container4{
+    background-color: lightgray;
+    padding-top: 32px;
+    box-sizing:border-box;
+    padding-left: 72px;
+    padding-right: 72px;
 }
